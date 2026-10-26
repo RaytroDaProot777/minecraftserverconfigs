@@ -1,0 +1,747 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "roots"
+	group: "6096FE1BB3D3B049"
+	id: "52B2E081A6E8A69F"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4A2CB9110840A1D3"
+			rewards: [
+				{
+					count: 3
+					id: "051D2BF55C11C7B4"
+					item: {
+						count: 1
+						id: "rootsclassic:old_root"
+					}
+					type: "item"
+				}
+				{
+					id: "59EED95962186346"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "19C7294EF99BB5BF"
+					item: {
+						count: 1
+						id: "rootsclassic:verdant_sprig"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A307517D97E1824"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A2CB9110840A1D3"]
+			id: "2F265F735AD84FEF"
+			rewards: [
+				{
+					id: "1F2A2D1E5EF70989"
+					item: {
+						count: 1
+						id: "rootsclassic:old_root"
+					}
+					type: "item"
+				}
+				{
+					id: "484CB9EDCE1DAFAB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "6A72E37C8A203F4B"
+				item: { count: 1, id: "rootsclassic:runic_tablet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "03FC45B78113B9B7"
+			rewards: [{
+				count: 2
+				id: "232DF1C10ECC99BF"
+				item: {
+					count: 1
+					id: "rootsclassic:fruit_salad"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 5L
+					id: "338F6CA4D00E00AF"
+					item: { count: 1, id: "rootsclassic:blackcurrant" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5C7CA3DF918A1D70"
+					item: { count: 1, id: "rootsclassic:redcurrant" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3F28FC18842582D6"
+					item: { count: 1, id: "rootsclassic:whitecurrant" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5322F11BFA206E58"
+					item: { count: 1, id: "rootsclassic:elderberry" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "7B51A787E65CC8BC"
+					item: { count: 1, id: "rootsclassic:nightshade" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			id: "1DD3A3D5066F3EBF"
+			rewards: [{
+				id: "3CA55DDE72155FFC"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "687DFC8E5733C3B9"
+				item: { count: 1, id: "rootsclassic:rooty_stew" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4A2CB9110840A1D3"]
+			id: "79AD65061CD3D7AC"
+			rewards: [{
+				id: "41734A2B1CA98856"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [
+				{
+					id: "3A4AEC1E965C51A1"
+					item: { count: 1, id: "rootsclassic:pestle" }
+					type: "item"
+				}
+				{
+					id: "380CB8FAC628D473"
+					item: { count: 1, id: "rootsclassic:mortar" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A2CB9110840A1D3"
+				"79AD65061CD3D7AC"
+				"2F265F735AD84FEF"
+				"514758409ED6E8D6"
+				"013940B9D712F2A9"
+			]
+			id: "1FC79D2FF4178384"
+			rewards: [{
+				id: "3BAE77DB105D378F"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "70D7494A0F90E6E3"
+				item: { count: 1, id: "rootsclassic:imbuer" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1FC79D2FF4178384"]
+			id: "7BF4F2A4AF3FCFFA"
+			rewards: [{
+				id: "2547F4702FA35B73"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "1A8C1AE21CCD0427"
+					item: { count: 1, id: "rootsclassic:altar" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7A1204547B5619A7"
+					item: { count: 1, id: "rootsclassic:brazier" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7BF4F2A4AF3FCFFA"]
+			id: "5E4CCA9E04C7E7DB"
+			rewards: [{
+				count: 4
+				id: "7E10203F6DE08FB6"
+				item: {
+					count: 1
+					id: "rootsclassic:mundane_standing_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EAAF78E3972976F"
+				item: { count: 1, id: "rootsclassic:living_sword" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7BF4F2A4AF3FCFFA"]
+			id: "20E9493C085AC3BC"
+			rewards: [{
+				count: 2
+				id: "2FEDD98699F38433"
+				item: {
+					count: 1
+					id: "rootsclassic:mundane_standing_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43AFA9BB8EC13521"
+				item: { count: 1, id: "rootsclassic:living_axe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7BF4F2A4AF3FCFFA"]
+			id: "3013DEA51E04C81E"
+			rewards: [{
+				count: 2
+				id: "5CA36DA925E8306F"
+				item: {
+					count: 1
+					id: "rootsclassic:mundane_standing_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C89A795C42A02D6"
+				item: { count: 1, id: "rootsclassic:living_pickaxe" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7BF4F2A4AF3FCFFA"]
+			id: "5ECE6BC9478A9F28"
+			rewards: [
+				{
+					count: 2
+					id: "1C608BDC0A17E225"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					id: "39FDCE34998D492D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "0D09579B68191DF0"
+					item: { count: 1, id: "minecraft:chicken" }
+					type: "item"
+				}
+				{
+					id: "2CB22C96EA9155B0"
+					item: { count: 1, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					id: "4F96246D56810F25"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					id: "3AA701681230969C"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					id: "18146CC264E950E9"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7BF4F2A4AF3FCFFA"]
+			id: "272EAD7344002863"
+			rewards: [
+				{
+					count: 2
+					id: "47449E912D21CC57"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					id: "76276F3F50FB76A1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "761EEB6B0BD59C01"
+					item: { count: 1, id: "minecraft:beef" }
+					type: "item"
+				}
+				{
+					id: "138A6A322AA7B7F3"
+					item: { count: 1, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					id: "3538887FD52EA325"
+					item: { count: 1, id: "minecraft:bone" }
+					type: "item"
+				}
+				{
+					id: "5A0EEA16BE8FDE52"
+					item: { count: 1, id: "minecraft:wheat_seeds" }
+					type: "item"
+				}
+				{
+					id: "7678DC11069165C6"
+					item: { count: 1, id: "minecraft:nether_wart" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"3013DEA51E04C81E"
+				"5E4CCA9E04C7E7DB"
+				"20E9493C085AC3BC"
+				"272EAD7344002863"
+				"5ECE6BC9478A9F28"
+			]
+			id: "2615F6CC0F91E99D"
+			rewards: [{
+				count: 4
+				id: "2AA3AC8234EE1C22"
+				item: {
+					count: 1
+					id: "rootsclassic:attuned_standing_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "367F57CBE53DAD68"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["2615F6CC0F91E99D"]
+			id: "615F6DD1AC98E59B"
+			rewards: [
+				{
+					id: "2484CA88DCC70AAB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "148CBE666EF2547D"
+					item: {
+						count: 1
+						id: "rootsclassic:dragons_eye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7BCE623D4C345179"
+				item: { count: 1, id: "rootsclassic:engraved_blade" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2615F6CC0F91E99D"]
+			id: "4F2C39289BBE1BF6"
+			rewards: [
+				{
+					id: "4247EDCD004EEEE0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0F67AA9173307BB4"
+					item: {
+						count: 1
+						id: "rootsclassic:dragons_eye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0800CBB57E7FDCFA"
+				item: { count: 1, id: "rootsclassic:crystal_staff" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2615F6CC0F91E99D"]
+			id: "508DC8823DADC26F"
+			rewards: [{
+				id: "5E84AB70C0B503C6"
+				item: {
+					count: 1
+					id: "rootsclassic:dragons_eye"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4352A8B67C3C0E78"
+					item: { count: 1, id: "rootsclassic:sylvan_hood" }
+					type: "item"
+				}
+				{
+					id: "47467853449B0139"
+					item: { count: 1, id: "rootsclassic:sylvan_robe" }
+					type: "item"
+				}
+				{
+					id: "3BB2847733A519C2"
+					item: { count: 1, id: "rootsclassic:sylvan_tunic" }
+					type: "item"
+				}
+				{
+					id: "024CD2AAFFFB25AA"
+					item: { count: 1, id: "rootsclassic:sylvan_boots" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2615F6CC0F91E99D"]
+			id: "3B3EBA216F118CCA"
+			rewards: [
+				{
+					id: "1C59E6A10F6D90BF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "29DDE4F05C6ACDC5"
+					item: {
+						count: 1
+						id: "rootsclassic:dragons_eye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "11D6EBA3FF76B994"
+					item: { count: 1, id: "rootsclassic:wildwood_mask" }
+					type: "item"
+				}
+				{
+					id: "467C660A951B0A4B"
+					item: { count: 1, id: "rootsclassic:wildwood_plate" }
+					type: "item"
+				}
+				{
+					id: "7453240EB749F30B"
+					item: { count: 1, id: "rootsclassic:wildwood_leggings" }
+					type: "item"
+				}
+				{
+					id: "301C48EE45728624"
+					item: { count: 1, id: "rootsclassic:wildwood_boots" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2615F6CC0F91E99D"]
+			id: "74D2957EB6A81D61"
+			rewards: [
+				{
+					id: "4FB27F97EDF69D4F"
+					item: {
+						count: 1
+						id: "rootsclassic:charged_runic_focus"
+					}
+					type: "item"
+				}
+				{
+					id: "4908035559986101"
+					item: {
+						count: 1
+						id: "rootsclassic:dragons_eye"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72D7BB4AC0AA4B82"
+				item: { count: 1, id: "rootsclassic:runic_focus" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["2F265F735AD84FEF"]
+			id: "013940B9D712F2A9"
+			rewards: [
+				{
+					count: 2
+					id: "334E276D48FF53D2"
+					item: {
+						count: 1
+						id: "rootsclassic:oak_bark"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5C04AF434F7BF9C6"
+					item: {
+						count: 1
+						id: "rootsclassic:spruce_bark"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09E487FE06EE54DF"
+					item: {
+						count: 1
+						id: "rootsclassic:birch_bark"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DF7652BACC1BD5D"
+					item: {
+						count: 1
+						id: "rootsclassic:jungle_bark"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1640A3E58ACEA6C5"
+					item: {
+						count: 1
+						id: "rootsclassic:acacia_bark"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1D3A89B92B1413B5"
+					item: {
+						count: 1
+						id: "rootsclassic:dark_oak_bark"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3804DA49F3312FD7"
+				item: { count: 1, id: "rootsclassic:bark_knife" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["79AD65061CD3D7AC"]
+			id: "514758409ED6E8D6"
+			rewards: [{
+				id: "52304A67861ED3D9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "53C5E1EDC73D8CAD"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			id: "2FEA780CE58AB35B"
+			invisible: true
+			rewards: [
+				{
+					id: "43CDF8EBF0AF61AD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "51B36913FCCB7FDE"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "69402B49CBF6A6FA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FEA780CE58AB35B"]
+			id: "6C63E78B3E2BF17D"
+			rewards: [{
+				id: "40499B4E740B5429"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "0A0AC8CABB03F6D8"
+				item: { count: 1, id: "rootsclassic:mutating_powder" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6C63E78B3E2BF17D"]
+			id: "7A434C586091140D"
+			rewards: [
+				{
+					id: "7D82BD23F934C304"
+					item: {
+						count: 1
+						id: "minecraft:redstone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1942E0773A7903ED"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "774C464E8A637EC0"
+				item: { count: 1, id: "rootsclassic:radiant_daisy" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C63E78B3E2BF17D"]
+			id: "7378C6D5FE703D20"
+			rewards: [{
+				id: "78D9EA101DAE2222"
+				item: {
+					count: 1
+					id: "minecraft:dragon_breath"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CC13F380F269E05"
+				item: { count: 1, id: "rootsclassic:midnight_bloom" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C63E78B3E2BF17D"]
+			id: "78A6945CC0B64CE1"
+			rewards: [
+				{
+					id: "0803D1207E625A9C"
+					item: {
+						count: 1
+						id: "minecraft:magma_cream"
+					}
+					type: "item"
+				}
+				{
+					id: "18F7718742114AF2"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E2AAC052067FE27"
+				item: { count: 1, id: "rootsclassic:flare_orchid" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+	]
+}
