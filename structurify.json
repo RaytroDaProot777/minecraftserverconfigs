@@ -1,8 +1,16 @@
 {
   "config_version": "2.0.43",
-  "config_datetime": "2026-10-25_18-52-50",
+  "config_datetime": "2026-10-26_18-21-00",
   "general": {},
-  "structure_namespaces": [],
+  "structure_namespaces": [
+    {
+      "name": "global",
+      "enable_min_distance_from_world_center": true,
+      "min_distance_from_world_center": 750,
+      "enable_max_distance_from_world_center": true,
+      "max_distance_from_world_center": 50000
+    }
+  ],
   "structures": [
     {
       "name": "netherman:maze",
