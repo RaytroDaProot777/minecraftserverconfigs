@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "#c:ingots/steel"
+    ],
+    "resultItems": "createnuclear:steel_ingot"
+  }
+]
